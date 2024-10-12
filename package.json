@@ -1,0 +1,25 @@
+{
+  "name": "fn-get-by-name",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "offline": "npm run build && serverless offline",
+    "deploy": "npm run build && serverless deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.7.5",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.11.3",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.145",
+    "serverless-offline": "^14.3.2"
+  }
+}
